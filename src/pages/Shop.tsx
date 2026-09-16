@@ -1,5 +1,6 @@
 import type { Page, Lang } from '../types'
 import { t, waLink, WHATSAPP_LBJ, WHATSAPP_RUTENG } from '../types'
+import OrderForm from '../components/OrderForm'
 
 interface Props {
   navigate: (p: Page) => void
@@ -182,6 +183,8 @@ export default function Shop({ navigate, lang }: Props) {
               </div>
             ))}
           </div>
+
+          <OrderForm lang={lang} />
 
           {/* Compliance note */}
           <div style={{ backgroundColor: '#241d17', borderRadius: '4px', padding: '1.25rem 1.5rem', border: '1px solid rgba(192,138,62,0.15)', display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
