@@ -1,7 +1,7 @@
 import { createServer } from 'node:http'
 import { createClient } from '@supabase/supabase-js'
 
-const port = Number(process.env.PORT || 8787)
+const port = Number(process.env.API_PORT || 8787)
 const maxBodyBytes = 32_768
 
 const products = {
