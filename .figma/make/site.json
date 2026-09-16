@@ -1,0 +1,26 @@
+{
+  "title": "Kopi Mane Inspiration",
+  "description": "Kopi Mane Inspiration — Official Coffee of Heads of State. Two cafés, one roastery in Flores, Indonesia, serving Manggarai Arabica and Robusta coffee, coffee classes, and cupping sessions.",
+  "language": "en",
+  "robots": {
+    "index": true
+  },
+  "icons": {
+    "icon": ""
+  },
+  "openGraph": {
+    "image": ""
+  },
+  "analytics": {
+    "googleAnalyticsId": ""
+  },
+  "customScripts": {
+    "headStart": "",
+    "headEnd": "",
+    "bodyStart": "",
+    "bodyEnd": ""
+  },
+  "accessibility": {
+    "addBypassLinks": true
+  }
+}
