@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,300;1,9..144,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-espresso:      #1b1611;
+  --color-espresso-soft: #241d17;
+  --color-espresso-mid:  #2e251e;
+  --color-stone:         #8a8072;
+  --color-stone-soft:    #b7ad9c;
+  --color-parchment:     #f3ecdd;
+  --color-parchment-dim: #e8e0cd;
+  --color-plum:          #4f2036;
+  --color-plum-light:    #7a3a56;
+  --color-gold:          #c08a3e;
+  --color-gold-dim:      #a07030;
+  --color-v-arabika:     #c9743a;
+  --color-v-robusta:     #2e6e68;
+  --color-v-caturra:     #c4452e;
+  --color-v-juria:       #3a5a3e;
+
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body:    'Public Sans', system-ui, sans-serif;
+  --font-mono:    'IBM Plex Mono', 'Courier New', monospace;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #f3ecdd;
+  color: #1b1611;
+  -webkit-font-smoothing: antialiased;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #f3ecdd; }
+::-webkit-scrollbar-thumb { background: #c08a3e; border-radius: 3px; }
+
+/* Smooth scroll */
+html { scroll-behavior: smooth; }
+
+/* Tab focus ring in brand color */
+:focus-visible { outline: 2px solid #c08a3e; outline-offset: 2px; }
+
+/* Selection */
+::selection { background: #4f2036; color: #f3ecdd; }
